@@ -1,9 +1,9 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
-a{
-    color: white;
+a {
+    color: black;
     text-decoration: none;
     font-family: Dense;
     font-size: 36px;
@@ -58,7 +58,7 @@ a{
         top:55px;
         left: 0px;
         align-items: center;
-        background-color: black;
+        background-color: white;
         flex-direction: column;
         width: 100%;
         transform: translateX(-100%);
@@ -78,7 +78,7 @@ a{
     .navbar-toggle span {
         width: 30px;
         height: 4px;
-        background: white;
+        background: black;
         margin-bottom: 5px;
         border-radius: 2px;
         transform-origin: 5px 0px;

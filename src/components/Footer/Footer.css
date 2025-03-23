@@ -9,8 +9,8 @@
     padding-bottom: 2.5rem;
 }
 
-.brand-container p {
-    display: flex;
+.brand-container {
+    display: grid;
     font-size: 30px;
     justify-content: flex-start;
     padding: 1rem 1rem;
@@ -20,6 +20,12 @@
     display: flex;
     flex-direction: row;
     gap: 80px;
+}
+
+.social-container p {
+    color: black;
+    font-size: 30px;
+    display: flex;
 }
 
 .social-container a {
@@ -42,20 +48,22 @@
         display: flex;
         justify-content: flex-start;
         gap: 2px;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .brand-container p{
         display: flex;
         padding: 0;
         font-size: 20px;
+        justify-content: flex-start;
     }
 
     .social-container a {
-        display: flex;
+        display: grid;
         justify-content: flex-start;
         padding: 0;
-        font-size: 20px;
+        flex-direction: row;
+        font-size: 40px;
     }
 }
 
